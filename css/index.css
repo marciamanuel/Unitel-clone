@@ -1,0 +1,113 @@
+#menu-logo{
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+
+#menu-top a{
+    color: rgb(178, 112, 240);
+}
+#menu-top a:hover{
+    color: orange;
+    transform: 2s;
+}
+
+#menu-bottom a{
+    color: rgb(158, 14, 224);
+}
+
+#img-carousel{
+    height: 450px; 
+}
+
+#search{
+    
+    color: #5C0F8B; 
+    text-align: right;
+   
+
+ 
+}
+
+#user{
+   
+    background: #5C0F8B;
+}
+#r1{
+    display: flex;
+    margin-right: 40px;
+    margin-left: 5px;
+    padding: 3%;
+}
+    
+#conteudo{
+   
+    margin-left: 40px;
+    color: #5C0F8B;
+}
+
+#conteudo{
+    width: 800px;
+    margin-right: 40px;
+} 
+
+#parag{
+    margin-bottom: 50px;
+}
+
+#titulo{
+    display: flex;
+    color: #5C0F8B;
+    padding: 2%;
+}
+
+#auxiliar{
+margin-top: 180px;
+margin-right: 40px;
+padding-right: 5%;
+
+}
+
+h2{
+    color: #5C0F8B;
+    font: 33.60625px intro_blackregular, Arial, Helvetica;
+    margin: 15px 0px 0px;
+    
+}
+
+#botao{
+    color: orange;
+    background:#5C0F8B ;
+    font: 16px intro_bookregular, sans-serif;
+}
+
+
+.card #paragrafo :hover{
+background: #FFFFFF ;
+
+}
+.card #botao:hover{
+    background: orange;
+    color: #FFFFFF;
+}
+
+    
+#r{
+    margin-right: 40px;
+    margin-left: 15px;
+    padding: 3%;
+}
+    
+
+
+
+#banner1{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#img{
+    width: 1349px;
+    
+}
