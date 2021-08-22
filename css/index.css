@@ -6,7 +6,7 @@
 
 
 #menu-top a{
-    color: rgb(178, 112, 240);
+    color: #5C0F8B;;
 }
 #menu-top a:hover{
     color: orange;
@@ -14,7 +14,8 @@
 }
 
 #menu-bottom a{
-    color: rgb(158, 14, 224);
+    color:  #5C0F8B;
+    
 }
 
 #img-carousel{
@@ -24,15 +25,21 @@
 #search{
     
     color: #5C0F8B; 
-    text-align: right;
    
-
- 
+    margin-left: 5px;
+}
+#search:hover{
+    color: orange;
 }
 
 #user{
    
     background: #5C0F8B;
+    width: 70%;
+    height: 100px;
+    margin-left: 90px;
+    margin-top: 0px;
+  
 }
 #r1{
     display: flex;
@@ -54,6 +61,7 @@
 
 #parag{
     margin-bottom: 50px;
+    margin-left: 100px;
 }
 
 #titulo{
@@ -64,8 +72,9 @@
 
 #auxiliar{
 margin-top: 180px;
-margin-right: 40px;
-padding-right: 5%;
+margin-right: 0px;
+
+margin-left: 200px;
 
 }
 
