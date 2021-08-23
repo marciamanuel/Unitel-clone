@@ -6,7 +6,8 @@
 
 
 #menu-top a{
-    color: #5C0F8B;;
+    color: #5C0F8B;
+  
 }
 #menu-top a:hover{
     color: orange;
@@ -21,26 +22,66 @@
 #img-carousel{
     height: 450px; 
 }
+ 
 
+#menu-actions{
+
+
+
+}
 #search{
     
     color: #5C0F8B; 
+    padding: 28px;
+    padding-left: 3%;
+    padding-bottom: 20%;
    
-    margin-left: 5px;
+    
 }
+
 #search:hover{
     color: orange;
 }
 
+#p{
+    text-align: center;
+}
 #user{
    
     background: #5C0F8B;
-    width: 70%;
-    height: 100px;
-    margin-left: 90px;
-    margin-top: 0px;
-  
+    padding: 24px;
+    
 }
+
+
+
+#phone{
+    padding: 40px;
+    background: orange; 
+    color: white;
+}
+
+#internet{
+    background: orange;  
+    padding: 40px; 
+    color: white;
+}
+
+#compras{
+    background: orange; 
+    padding: 40px;  
+    color: white;
+}
+#music{
+    background: orange;
+    padding: 40px;
+    color: white};
+
+
+    div #phone:hover{
+       color:yellow;
+   }
+
 #r1{
     display: flex;
     margin-right: 40px;
