@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #menu-logo {
   display: flex;
   align-items: center;
@@ -138,6 +144,11 @@ h2 {
 }
 
 /* Trabalhei aqui */
+
+.container-fluid {
+  width: 90%;
+  padding: 0;
+}
 .margen-mk-0 {
   margin-right: 0;
   margin-left: 0;
@@ -155,7 +166,7 @@ h2 {
   margin-bottom: 2rem;
 }
 
-.background-equipamento .container {
+.background-equipamento > .container {
   width: 70%;
   padding-top: 2rem;
 }
@@ -172,4 +183,20 @@ h2 {
   color: white;
   font-size: 1.3rem;
   margin-bottom: 1rem;
+}
+
+.padding-padrao {
+  padding-left: 0 !important;
+}
+.title-destaque {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-bottom: 3rem;
+}
+
+.title-destaque h1 {
+  color: #5c0f8b;
+  font-weight: bold;
+  font-family: Ubuntu;
+  font-size: 3rem;
 }
