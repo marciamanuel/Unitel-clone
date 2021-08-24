@@ -1,163 +1,175 @@
-#menu-logo{
-    display: flex;
-    align-items: center;
-    padding: 2%;
+#menu-logo {
+  display: flex;
+  align-items: center;
+  padding: 2%;
 }
 
-
-#menu-top a{
-    color: #5C0F8B;
-  
+#menu-top a {
+  color: #5c0f8b;
 }
-#menu-top a:hover{
-    color: orange;
-    transform: 2s;
+#menu-top a:hover {
+  color: orange;
+  transform: 2s;
 }
 
-#menu-bottom a{
-    color:  #5C0F8B;
-    
+#menu-bottom a {
+  color: #5c0f8b;
 }
 
-#img-carousel{
-    height: 450px; 
-}
- 
-
-#menu-actions{
-
-
-
-}
-#search{
-    
-    color: #5C0F8B; 
-    padding: 28px;
-    padding-left: 3%;
-    padding-bottom: 20%;
-   
-    
+#img-carousel {
+  height: 450px;
 }
 
-#search:hover{
-    color: orange;
+#menu-actions {
+}
+#search {
+  color: #5c0f8b;
+  padding: 28px;
+  padding-left: 3%;
+  padding-bottom: 20%;
 }
 
-#p{
-    text-align: center;
-}
-#user{
-   
-    background: #5C0F8B;
-    padding: 24px;
-    
+#search:hover {
+  color: orange;
 }
 
-
-
-#phone{
-    padding: 40px;
-    background: orange; 
-    color: white;
+#p {
+  text-align: center;
+}
+#user {
+  background: #5c0f8b;
+  padding: 24px;
 }
 
-#internet{
-    background: orange;  
-    padding: 40px; 
-    color: white;
+#phone {
+  padding: 40px;
+  background: orange;
+  color: white;
 }
 
-#compras{
-    background: orange; 
-    padding: 40px;  
-    color: white;
-}
-#music{
-    background: orange;
-    padding: 40px;
-    color: white};
-
-
-    div #phone:hover{
-       color:yellow;
-   }
-
-#r1{
-    display: flex;
-    margin-right: 40px;
-    margin-left: 5px;
-    padding: 3%;
-}
-    
-#conteudo{
-   
-    margin-left: 40px;
-    color: #5C0F8B;
+#internet {
+  background: orange;
+  padding: 40px;
+  color: white;
 }
 
-#conteudo{
-    width: 800px;
-    margin-right: 40px;
-} 
-
-#parag{
-    margin-bottom: 50px;
-    margin-left: 100px;
+#compras {
+  background: orange;
+  padding: 40px;
+  color: white;
+}
+#music {
+  background: orange;
+  padding: 40px;
+  color: white;
 }
 
-#titulo{
-    display: flex;
-    color: #5C0F8B;
-    padding: 2%;
+div #phone:hover {
+  color: yellow;
 }
 
-#auxiliar{
-margin-top: 180px;
-margin-right: 0px;
-
-margin-left: 200px;
-
+#r1 {
+  display: flex;
+  margin-right: 40px;
+  margin-left: 5px;
+  padding: 3%;
 }
 
-h2{
-    color: #5C0F8B;
-    font: 33.60625px intro_blackregular, Arial, Helvetica;
-    margin: 15px 0px 0px;
-    
+#conteudo {
+  margin-left: 40px;
+  color: #5c0f8b;
 }
 
-#botao{
-    color: orange;
-    background:#5C0F8B ;
-    font: 16px intro_bookregular, sans-serif;
+#conteudo {
+  width: 800px;
+  margin-right: 40px;
 }
 
-
-.card #paragrafo :hover{
-background: #FFFFFF ;
-
-}
-.card #botao:hover{
-    background: orange;
-    color: #FFFFFF;
+#parag {
+  margin-bottom: 50px;
+  margin-left: 100px;
 }
 
-    
-#r{
-    margin-right: 40px;
-    margin-left: 15px;
-    padding: 3%;
+#titulo {
+  display: flex;
+  color: #5c0f8b;
+  padding: 2%;
 }
-    
 
+#auxiliar {
+  margin-top: 180px;
+  margin-right: 0px;
 
-
-#banner1{
-    
-    margin-left: 10px;
-    margin-right: 10px;
+  margin-left: 200px;
 }
-#img{
-    width: 1349px;
-    
+
+h2 {
+  color: #5c0f8b;
+  font: 33.60625px intro_blackregular, Arial, Helvetica;
+  margin: 15px 0px 0px;
+}
+
+#botao {
+  color: orange;
+  background: #5c0f8b;
+  font: 16px intro_bookregular, sans-serif;
+}
+
+.card #paragrafo :hover {
+  background: #ffffff;
+}
+.card #botao:hover {
+  background: orange;
+  color: #ffffff;
+}
+
+#r {
+  margin-right: 40px;
+  margin-left: 15px;
+  padding: 3%;
+}
+
+#banner1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#img {
+  width: 1349px;
+}
+
+/* Trabalhei aqui */
+.margen-mk-0 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.background-equipamento {
+  height: 500px;
+  background-image: url(../assets/phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 2rem;
+}
+
+.background-equipamento .container {
+  width: 70%;
+  padding-top: 2rem;
+}
+
+.background-equipamento h1 {
+  color: #f16223;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+  font-family: Ubuntu;
+}
+
+.background-equipamento p {
+  color: white;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
 }
