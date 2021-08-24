@@ -1,3 +1,6 @@
+
+
+
 #menu-logo{
     display: flex;
     align-items: center;
@@ -6,7 +9,7 @@
 
 
 #menu-top a{
-    color: #5C0F8B;
+    color: #5700C2
   
 }
 #menu-top a:hover{
@@ -15,7 +18,7 @@
 }
 
 #menu-bottom a{
-    color:  #5C0F8B;
+    color:  #5700C2;
     
 }
 
@@ -31,7 +34,7 @@
 }
 #search{
     
-    color: #5C0F8B; 
+    color: #5700C2; 
     padding: 28px;
     padding-left: 3%;
     padding-bottom: 20%;
@@ -48,7 +51,7 @@
 }
 #user{
    
-    background: #5C0F8B;
+    background:#5700C2;
     padding: 24px;
     
 }
@@ -56,30 +59,39 @@
 
 
 #phone{
-    padding: 40px;
-    background: orange; 
+    padding: 35px;
+    background: #F76531; 
     color: white;
+    border-right: solid 1px #FFC106;
 }
 
 #internet{
-    background: orange;  
-    padding: 40px; 
+    background:#F76531;  
+    padding: 35px; 
     color: white;
+    border-right: solid 1px #FFC106;
 }
 
 #compras{
-    background: orange; 
-    padding: 40px;  
+    background: #F76531; 
+    padding: 35px;  
     color: white;
+    border-right: solid 1px #FFC106;
 }
 #music{
-    background: orange;
-    padding: 40px;
-    color: white};
+    background: #F76531;
+    padding: 35px;
+    color: white;
+    border-right: solid 1px #FFC106;
 
+}
 
-    div #phone:hover{
-       color:yellow;
+    
+    
+    #phone:hover{
+       transition-delay: 0s;
+       transform: none;
+       color: orchid;
    }
 
 #r1{
@@ -92,7 +104,7 @@
 #conteudo{
    
     margin-left: 40px;
-    color: #5C0F8B;
+    color: #5700C2;
 }
 
 #conteudo{
@@ -107,7 +119,7 @@
 
 #titulo{
     display: flex;
-    color: #5C0F8B;
+    color: #5700C2;
     padding: 2%;
 }
 
@@ -119,8 +131,8 @@ margin-left: 200px;
 
 }
 
-h2{
-    color: #5C0F8B;
+h1,h2{
+    color: #5700C2;
     font: 33.60625px intro_blackregular, Arial, Helvetica;
     margin: 15px 0px 0px;
     
@@ -128,8 +140,12 @@ h2{
 
 #botao{
     color: orange;
-    background:#5C0F8B ;
+    background:#5700C2 ;
     font: 16px intro_bookregular, sans-serif;
+} 
+
+#plano {
+    color: #5700C2;
 }
 
 
@@ -154,10 +170,34 @@ background: #FFFFFF ;
 
 #banner1{
     
-    margin-left: 10px;
+    margin-left: 100px;
     margin-right: 10px;
 }
 #img{
     width: 1349px;
     
+}
+
+#equipamento {
+  
+
+
+}
+
+
+#equipamento h1{
+    color: black;
+}
+
+#footer{
+background-color: #5700C2 ; 
+padding-top: 4%;
+padding-left: 20%;
+
+}
+.rodape{
+    color: #D96704;
+}
+.rodape:hover{
+    color: #D95130
 }
