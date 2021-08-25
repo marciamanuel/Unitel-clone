@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 
 
@@ -20,13 +20,14 @@
 
 #menu-bottom a{
     color:  #5700C2;
+}
     
-=======
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: red;
+  
 }
 
 body > *,
@@ -38,7 +39,7 @@ body > .margen-mk-0 {
   display: flex;
   align-items: center;
   padding: 2%;
->>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
+
 }
 
 #menu-top a {
@@ -59,7 +60,7 @@ body > .margen-mk-0 {
 
 #menu-actions {
 }
-<<<<<<< HEAD
+
 #search{
     
     color: #5700C2; 
@@ -67,14 +68,15 @@ body > .margen-mk-0 {
     padding-left: 3%;
     padding-bottom: 20%;
    
+}
+
     
-=======
 #search {
   color: #5c0f8b;
   padding: 28px;
   padding-left: 3%;
   padding-bottom: 20%;
->>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
+
 }
 
 #search:hover {
@@ -84,17 +86,16 @@ body > .margen-mk-0 {
 #p {
   text-align: center;
 }
-<<<<<<< HEAD
-#user{
+r{
 
     background:#5700C2;
     padding: 24px;
     
-=======
+}
 #user {
   background: #5c0f8b;
   padding: 24px;
->>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
+
 }
 
 #phone {
@@ -109,7 +110,7 @@ body > .margen-mk-0 {
   color: white;
 }
 
-<<<<<<< HEAD
+
 #phone{
     padding: 35px;
     background: #F76531; 
@@ -145,7 +146,7 @@ body > .margen-mk-0 {
        transform: none;
        color: orchid;
    }
-=======
+
 #compras {
   background: orange;
   padding: 40px;
@@ -177,26 +178,32 @@ div #phone:hover {
   width: 800px;
   margin-right: 40px;
 }
->>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
+
 
 #parag {
   margin-bottom: 50px;
   margin-left: 100px;
 }
-<<<<<<< HEAD
+    
     
 #conteudo{
    
     margin-left: 40px;
     color: #5700C2;
-=======
 
+
+
+
+
+
+}
 #titulo {
   display: flex;
   color: #5c0f8b;
   padding: 2%;
->>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
+
 }
+
 
 #auxiliar {
   margin-top: 180px;
@@ -205,18 +212,16 @@ div #phone:hover {
   margin-left: 200px;
 }
 
-<<<<<<< HEAD
-#titulo{
-    display: flex;
-    color: #5700C2;
-    padding: 2%;
-=======
+
+
 h2 {
+
   color: #5c0f8b;
   font: 33.60625px intro_blackregular, Arial, Helvetica;
   margin: 15px 0px 0px;
->>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
+
 }
+
 
 #botao {
   color: orange;
@@ -238,25 +243,31 @@ h2 {
   padding: 3%;
 }
 
-<<<<<<< HEAD
+
 h1,h2{
     color: #5700C2;
     font: 33.60625px intro_blackregular, Arial, Helvetica;
     margin: 15px 0px 0px;
     
-=======
+}
 #banner1 {
   margin-left: 10px;
   margin-right: 10px;
->>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
+
 }
+
 #img {
   width: 1349px;
 }
 
-/* Trabalhei aqui */
 
-<<<<<<< HEAD
+
+
+
+
+
+
+
 #botao{
     color: orange;
     background:#5700C2 ;
@@ -265,7 +276,7 @@ h1,h2{
 
 #plano {
     color: #5700C2;
-=======
+}
 .container-fluid {
   width: 90%;
   padding: 0;
@@ -273,8 +284,9 @@ h1,h2{
 .margen-mk-0 {
   margin-right: 0;
   margin-left: 0;
->>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
+
 }
+
 
 .background-equipamento {
   height: 500px;
@@ -307,16 +319,17 @@ h1,h2{
   margin-bottom: 1rem;
 }
 
-<<<<<<< HEAD
+
 #banner1{
     
     margin-left: 100px;
     margin-right: 10px;
-=======
+}
 .padding-padrao {
   padding-left: 0 !important;
->>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
+
 }
+
 .title-destaque {
   padding-right: 0 !important;
   padding-left: 0 !important;
