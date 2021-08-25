@@ -21,7 +21,166 @@
 #menu-bottom a{
     color:  #5700C2;
 }
+#voz ul li{
+background-color:#F2F3F5;
+color: #5700C2; 
+float: left;
+width: 150px;
+height: 30px;
+display: inline-block;
+text-align: start;
+line-height: 30px;
+font-size: 20px;
+list-style: none;
+
+
+}
+#voz :hover{
+  border-bottom: solid 5px #5700C2;
+}
+#voz ul{
+  padding: 0;
+}
+
+
+  
+  #sms ul li{
+    background-color:#F2F3F5;
+    color: #5700C2; 
+    float: left;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    text-align: start;
+    line-height: 30px;
+    font-size: 20px;
+    list-style: none;
     
+    
+    }
+    #sms a{
+      text-decoration: none;
+      color:#5700C2;  
+      list-style: none;
+    }
+    #sms :hover{
+      border-bottom: solid 5px #5700C2;
+    }
+    #sms ul{
+      padding: 0;
+    }
+
+    
+    #inter ul li{
+      background-color:#F2F3F5;
+      color: #5700C2; 
+      float: left;
+      width: 150px;
+      height: 30px;
+      display: inline-block;
+      text-align: start;
+      line-height: 30px;
+      font-size: 20px;
+      list-style: none;
+      
+      
+      }
+
+      #inter a{
+        text-decoration: none;
+        color:#5700C2;  
+        list-style: none;
+      }
+
+      #inter :hover{
+        border-bottom: solid 5px #5700C2;
+      }
+      #inter ul{
+        padding: 0;
+      }
+      #roaming ul li{
+        background-color:#F2F3F5;
+        color: #5700C2; 
+        float: left;
+        width: 150px;
+        height: 30px;
+        display: inline-block;
+        text-align: start;
+        line-height: 30px;
+        font-size: 20px;
+        list-style: none;
+        
+        
+        }
+
+        #roaming a{
+          text-decoration: none;
+          color:#5700C2;  
+          list-style: none;
+        }
+
+        #roaming :hover{
+          border-bottom: solid 5px #5700C2;
+        }
+        #roaming ul{
+          padding: 0;
+        }
+        #mundo-unitel ul li{
+          background-color:#F2F3F5;
+          color: #5700C2; 
+          float: left;
+          width: 150px;
+          height: 30px;
+          display: inline-block;
+          text-align: start;
+          line-height: 30px;
+          font-size: 20px;
+          list-style: none;
+          
+          
+          }
+          #mundo-unitel a{
+            text-decoration: none;
+            color:#5700C2;  
+            list-style: none;
+          }
+
+          #mundo-unitel:hover{
+            border-top: solid 5px #5700C2;
+          }
+          #mundo-unitel ul{
+            padding: 0;
+          }
+          #servico ul li{
+            background-color:#F2F3F5;
+            color: #5700C2; 
+            float: left;
+            width: 150px;
+            height: 30px;
+            display: inline-block;
+            text-align: start;
+            line-height: 30px;
+            font-size: 20px;
+            list-style: none;
+            
+            
+            }
+            #servico a{
+              text-decoration: none;
+              color:#5700C2;  
+              list-style: none;
+            }
+            
+            #servico :hover{
+              border-bottom: solid 5px #5700C2;
+            }
+            #servico ul{
+              padding: 0;
+            }
+            #Apoio-ao-Cliente :hover{
+              border-bottom: solid 5px #5700C2;
+            }
+
 
 body {
   margin: 0;
@@ -30,10 +189,7 @@ body {
   
 }
 
-body > *,
-body > .margen-mk-0 {
-  display: none;
-}
+
 
 #menu-logo {
   display: flex;
