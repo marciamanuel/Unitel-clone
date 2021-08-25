@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -20,18 +21,45 @@
 #menu-bottom a{
     color:  #5700C2;
     
+=======
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: red;
 }
 
-#img-carousel{
-    height: 450px; 
+body > *,
+body > .margen-mk-0 {
+  display: none;
 }
- 
 
-#menu-actions{
-
-
-
+#menu-logo {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+>>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
 }
+
+#menu-top a {
+  color: #5c0f8b;
+}
+#menu-top a:hover {
+  color: orange;
+  transform: 2s;
+}
+
+#menu-bottom a {
+  color: #5c0f8b;
+}
+
+#img-carousel {
+  height: 450px;
+}
+
+#menu-actions {
+}
+<<<<<<< HEAD
 #search{
     
     color: #5700C2; 
@@ -40,24 +68,48 @@
     padding-bottom: 20%;
    
     
+=======
+#search {
+  color: #5c0f8b;
+  padding: 28px;
+  padding-left: 3%;
+  padding-bottom: 20%;
+>>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
 }
 
-#search:hover{
-    color: orange;
+#search:hover {
+  color: orange;
 }
 
-#p{
-    text-align: center;
+#p {
+  text-align: center;
 }
+<<<<<<< HEAD
 #user{
    
     background:#5700C2;
     padding: 24px;
     
+=======
+#user {
+  background: #5c0f8b;
+  padding: 24px;
+>>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
 }
 
+#phone {
+  padding: 40px;
+  background: orange;
+  color: white;
+}
 
+#internet {
+  background: orange;
+  padding: 40px;
+  color: white;
+}
 
+<<<<<<< HEAD
 #phone{
     padding: 35px;
     background: #F76531; 
@@ -93,51 +145,118 @@
        transform: none;
        color: orchid;
    }
-
-#r1{
-    display: flex;
-    margin-right: 40px;
-    margin-left: 5px;
-    padding: 3%;
+=======
+#compras {
+  background: orange;
+  padding: 40px;
+  color: white;
 }
+#music {
+  background: orange;
+  padding: 40px;
+  color: white;
+}
+
+div #phone:hover {
+  color: yellow;
+}
+
+#r1 {
+  display: flex;
+  margin-right: 40px;
+  margin-left: 5px;
+  padding: 3%;
+}
+
+#conteudo {
+  margin-left: 40px;
+  color: #5c0f8b;
+}
+
+#conteudo {
+  width: 800px;
+  margin-right: 40px;
+}
+>>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
+
+#parag {
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+<<<<<<< HEAD
     
 #conteudo{
    
     margin-left: 40px;
     color: #5700C2;
+=======
+
+#titulo {
+  display: flex;
+  color: #5c0f8b;
+  padding: 2%;
+>>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
 }
 
-#conteudo{
-    width: 800px;
-    margin-right: 40px;
-} 
+#auxiliar {
+  margin-top: 180px;
+  margin-right: 0px;
 
-#parag{
-    margin-bottom: 50px;
-    margin-left: 100px;
+  margin-left: 200px;
 }
 
+<<<<<<< HEAD
 #titulo{
     display: flex;
     color: #5700C2;
     padding: 2%;
+=======
+h2 {
+  color: #5c0f8b;
+  font: 33.60625px intro_blackregular, Arial, Helvetica;
+  margin: 15px 0px 0px;
+>>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
 }
 
-#auxiliar{
-margin-top: 180px;
-margin-right: 0px;
-
-margin-left: 200px;
-
+#botao {
+  color: orange;
+  background: #5c0f8b;
+  font: 16px intro_bookregular, sans-serif;
 }
 
+.card #paragrafo :hover {
+  background: #ffffff;
+}
+.card #botao:hover {
+  background: orange;
+  color: #ffffff;
+}
+
+#r {
+  margin-right: 40px;
+  margin-left: 15px;
+  padding: 3%;
+}
+
+<<<<<<< HEAD
 h1,h2{
     color: #5700C2;
     font: 33.60625px intro_blackregular, Arial, Helvetica;
     margin: 15px 0px 0px;
     
+=======
+#banner1 {
+  margin-left: 10px;
+  margin-right: 10px;
+>>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
+}
+#img {
+  width: 1349px;
 }
 
+/* Trabalhei aqui */
+
+<<<<<<< HEAD
 #botao{
     color: orange;
     background:#5700C2 ;
@@ -146,36 +265,69 @@ h1,h2{
 
 #plano {
     color: #5700C2;
+=======
+.container-fluid {
+  width: 90%;
+  padding: 0;
+}
+.margen-mk-0 {
+  margin-right: 0;
+  margin-left: 0;
+>>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
 }
 
+.background-equipamento {
+  height: 500px;
+  background-image: url(../assets/phone.png);
+  background-position: center;
+  background-repeat: no-repeat;
 
-.card #paragrafo :hover{
-background: #FFFFFF ;
+  display: flex;
+  align-items: center;
 
+  margin-bottom: 2rem;
 }
-.card #botao:hover{
-    background: orange;
-    color: #FFFFFF;
+
+.background-equipamento > .container {
+  width: 70%;
+  padding-top: 2rem;
 }
 
-    
-#r{
-    margin-right: 40px;
-    margin-left: 15px;
-    padding: 3%;
+.background-equipamento h1 {
+  color: #f16223;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+  font-family: Ubuntu;
 }
-    
 
+.background-equipamento p {
+  color: white;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
 
-
+<<<<<<< HEAD
 #banner1{
     
     margin-left: 100px;
     margin-right: 10px;
+=======
+.padding-padrao {
+  padding-left: 0 !important;
+>>>>>>> db91cae87ae69dc89d2b5d7b013e2de863e0312c
 }
-#img{
-    width: 1349px;
-    
+.title-destaque {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-bottom: 3rem;
+}
+
+.title-destaque h1 {
+  color: #5c0f8b;
+  font-weight: bold;
+  font-family: Ubuntu;
+  font-size: 3rem;
 }
 
 #equipamento {
