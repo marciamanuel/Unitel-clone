@@ -315,25 +315,11 @@ body {
 
     
     
-    #phone:hover{
-       transition-delay: 0s;
-       transform: none;
-       color: orchid;
-   }
 
-#compras {
-  background: orange;
-  padding: 40px;
-  color: white;
-}
-#music {
-  background: orange;
-  padding: 40px;
-  color: white;
-}
 
-div #phone:hover {
-  color: yellow;
+
+ #phone:hover {
+  color:#3a1d5f ;
 }
 
 #r1 {
@@ -428,6 +414,10 @@ h1,h2{
   margin-left: 10px;
   margin-right: 10px;
 
+}
+#banner1:hover{
+  border: solid 1px white;
+  box-shadow: rgb(189, 186, 186);
 }
 
 #img {
@@ -558,9 +548,14 @@ padding-top: 10px;
 
 #footer{
 background-color: #3a1d5f ; 
-padding-top: 4%;
-padding-left: 20%;
+padding-top: 50px;
+padding-left: 150px;
 
+} #logo{
+  padding-top: 30px;
+  padding-right:90px;
+  margin-right: px;
+ 
 }
 .rodape{
     color: #D96704;
