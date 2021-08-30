@@ -1,239 +1,13 @@
-
-
-
-
-#menu-logo{
-    display: flex;
-    align-items: center;
-    padding: 2%;
-}
-
-
-#menu-top a{
-    color: #3a1d5f ;
-    padding-right: 100px;
-    padding-top: 1px;
-  
-}
-#menu-top a:hover{
-    color: orange;
-    transform: 2s;
-}
-
-#menu-bottom a{
-    color:  #3a1d5f 
-}
-#voz ul li{
-background-color:#F2F3F5;
-color: #3a1d5f ; 
-float: left;
-width: 150px;
-height: 30px;
-display: inline-block;
-text-align: start;
-line-height: 30px;
-font-size: 20px;
-list-style: none;
-list-style-type: none;
-
-
-}
-#voz :hover{
-  border-bottom: solid 5px #3a1d5f ;
-}
-#voz ul{
-  padding: 0;
-  list-style-type: none;
-}
-
-
-  
-  #sms ul li{
-    background-color:#F2F3F5;
-    color: #3a1d5f ; 
-    float: left;
-    width: 150px;
-    height: 30px;
-    display: inline-block;
-    text-align: start;
-    line-height: 30px;
-    font-size: 20px;
-    list-style: none;
-    list-style-type: none;
-    
-    
-    }
-    #sms a{
-      text-decoration: none;
-      color:#3a1d5f ;  
-      list-style: none;
-    }
-    #sms :hover{
-      border-bottom: solid 5px #3a1d5f ;
-    }
-    #sms ul{
-      padding: 0;
-      list-style-type: none;
-    }
-
-    
-    #inter ul li{
-      background-color:#F2F3F5;
-      color: #3a1d5f ; 
-      float: rigth;
-      width: 150px;
-      height: 30px;
-      display: inline-block;
-      text-align: start;
-      line-height: 30px;
-      font-size: 20px;
-      list-style: none;
-      list-style-type: none;
-      
-      
-      }
-
-      #inter a{
-        text-decoration: none;
-        color:#3a1d5f ;  
-        list-style: none;
-      }
-
-      #inter :hover{
-        border-bottom: solid 5px #3a1d5f ;
-      }
-      #inter ul{
-        padding: 0;
-        list-style-type: none;
-      }
-      #roaming ul li{
-        background-color:#F2F3F5;
-        color: #3a1d5f ; 
-        float: left;
-        width: 150px;
-        height: 30px;
-        display: inline-block;
-        text-align: start;
-        line-height: 30px;
-        font-size: 20px;
-        list-style: none;
-        list-style-type: none;
-        
-        
-        }
-
-        #roaming a{
-          text-decoration: none;
-          color:#3a1d5f ;  
-          list-style: none;
-        }
-
-        #roaming :hover{
-          border-bottom: solid 5px #3a1d5f ;
-        }
-        #roaming ul{
-          padding: 0;
-          list-style-type: none;
-        }
-        #mundo-unitel ul li{
-          background-color:#F2F3F5;
-          color: #3a1d5f ; 
-          float: left;
-          width: 150px;
-          height: 30px;
-          display: inline-block;
-          text-align: start;
-          line-height: 30px;
-          font-size: 20px;
-          list-style: none;
-          list-style-type: none;
-          
-          }
-          #mundo-unitel a{
-            text-decoration: none;
-            color:#3a1d5f ;  
-            list-style: none;
-          }
-
-          #mundo-unitel:hover{
-            border-bottom: solid 5px #3a1d5f ;
-          }
-          #mundo-unitel ul{
-            padding: 0;
-           list-style-type: none;
-          }
-          #servico ul li{
-            background-color:#F2F3F5;
-            color: #3a1d5f ; 
-            float: left;
-            width: 150px;
-            height: 30px;
-            display: inline-block;
-            text-align: start;
-            line-height: 30px;
-            font-size: 20px;
-            list-style: none;
-            list-style-type: none;
-            
-            
-            }
-            #servico a{
-              text-decoration: none;
-              color:#3a1d5f ;  
-              list-style: none;
-            }
-            
-            #servico :hover{
-              border-bottom: solid 5px #3a1d5f ;
-            }
-            #servico ul{
-              padding: 0;
-              list-style-type: none;
-            }
-            #Apoio-ao-Cliente :hover{
-              border-bottom: solid 5px #3a1d5f ;
-            }
-            #Apoio-ao-Cliente{
-              list-style-type: none;
-            }
-            #servico{
-              list-style-type: none;
-            }
-            #roaming{
-              list-style-type: none;
-            }
-            #inter{
-              list-style-type: none;
-            }
-            #sms{
-              list-style-type: none;
-            }
-            #mundo-unitel{
-              list-style-type: none;
-            }
-            #voz{
-              list-style-type: none;
-            }
-
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
-
-
-
 #menu-logo {
   display: flex;
   align-items: center;
   padding: 2%;
-
 }
 
 #menu-top a {
-  color: #3a1d5f ;
+  color: #3a1d5f;
+  padding-right: 100px;
+  padding-top: 1px;
 }
 #menu-top a:hover {
   color: orange;
@@ -241,7 +15,208 @@ body {
 }
 
 #menu-bottom a {
-  color: #3a1d5f ;
+  color: #3a1d5f;
+}
+#voz ul li {
+  background-color: #f2f3f5;
+  color: #3a1d5f;
+  float: left;
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+  text-align: start;
+  line-height: 30px;
+  font-size: 20px;
+  list-style: none;
+  list-style-type: none;
+}
+#voz :hover {
+  border-bottom: solid 5px #3a1d5f;
+}
+#voz ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#sms ul li {
+  background-color: #f2f3f5;
+  color: #3a1d5f;
+  float: left;
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+  text-align: start;
+  line-height: 30px;
+  font-size: 20px;
+  list-style: none;
+  list-style-type: none;
+}
+#sms a {
+  text-decoration: none;
+  color: #3a1d5f;
+  list-style: none;
+}
+#sms :hover {
+  border-bottom: solid 5px #3a1d5f;
+}
+#sms ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+#inter ul li {
+  background-color: #f2f3f5;
+  color: #3a1d5f;
+  float: rigth;
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+  text-align: start;
+  line-height: 30px;
+  font-size: 20px;
+  list-style: none;
+  list-style-type: none;
+}
+
+#inter a {
+  text-decoration: none;
+  color: #3a1d5f;
+  list-style: none;
+}
+
+#inter :hover {
+  border-bottom: solid 5px #3a1d5f;
+}
+#inter ul {
+  padding: 0;
+  list-style-type: none;
+}
+#roaming ul li {
+  background-color: #f2f3f5;
+  color: #3a1d5f;
+  float: left;
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+  text-align: start;
+  line-height: 30px;
+  font-size: 20px;
+  list-style: none;
+  list-style-type: none;
+}
+
+#roaming a {
+  text-decoration: none;
+  color: #3a1d5f;
+  list-style: none;
+}
+
+#roaming :hover {
+  border-bottom: solid 5px #3a1d5f;
+}
+#roaming ul {
+  padding: 0;
+  list-style-type: none;
+}
+#mundo-unitel ul li {
+  background-color: #f2f3f5;
+  color: #3a1d5f;
+  float: left;
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+  text-align: start;
+  line-height: 30px;
+  font-size: 20px;
+  list-style: none;
+  list-style-type: none;
+}
+#mundo-unitel a {
+  text-decoration: none;
+  color: #3a1d5f;
+  list-style: none;
+}
+
+#mundo-unitel:hover {
+  border-bottom: solid 5px #3a1d5f;
+}
+#mundo-unitel ul {
+  padding: 0;
+  list-style-type: none;
+}
+#servico ul li {
+  background-color: #f2f3f5;
+  color: #3a1d5f;
+  float: left;
+  width: 150px;
+  height: 30px;
+  display: inline-block;
+  text-align: start;
+  line-height: 30px;
+  font-size: 20px;
+  list-style: none;
+  list-style-type: none;
+}
+#servico a {
+  text-decoration: none;
+  color: #3a1d5f;
+  list-style: none;
+}
+
+#servico :hover {
+  border-bottom: solid 5px #3a1d5f;
+}
+#servico ul {
+  padding: 0;
+  list-style-type: none;
+}
+#Apoio-ao-Cliente :hover {
+  border-bottom: solid 5px #3a1d5f;
+}
+#Apoio-ao-Cliente {
+  list-style-type: none;
+}
+#servico {
+  list-style-type: none;
+}
+#roaming {
+  list-style-type: none;
+}
+#inter {
+  list-style-type: none;
+}
+#sms {
+  list-style-type: none;
+}
+#mundo-unitel {
+  list-style-type: none;
+}
+#voz {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#menu-logo {
+  display: flex;
+  align-items: center;
+  padding: 2%;
+}
+
+#menu-top a {
+  color: #3a1d5f;
+}
+#menu-top a:hover {
+  color: orange;
+  transform: 2s;
+}
+
+#menu-bottom a {
+  color: #3a1d5f;
 }
 
 #img-carousel {
@@ -251,19 +226,11 @@ body {
 #menu-actions {
 }
 
-   
-   
-   
-
-
-
-    
 #search {
-  color: #3a1d5f ;
+  color: #3a1d5f;
   padding: 28px;
   padding-left: 3%;
   padding-bottom: 20%;
-
 }
 
 #search:hover {
@@ -273,48 +240,52 @@ body {
 #p {
   text-align: center;
 }
-#r{
-
-    background:#5700C2;
-    padding: 24px;
-    
+#r {
+  background: #5700c2;
+  padding: 24px;
 }
 #user {
-  background: #3a1d5f ;
+  background: #3a1d5f;
   padding: 24px;
-
 }
 
-#phone{
-    padding: 35px;
-    background: #F76531; 
-    color: white;
-    border-right: solid 1px #FFC106;
+#phone {
+  padding: 35px;
+  background: #f76531;
+  color: white;
+  border-right: solid 1px #ffc106;
 }
 
-#internet{
-    background:#F76531;  
-    padding: 35px; 
-    color: white;
-    border-right: solid 1px #FFC106;
+#internet {
+  background: #f76531;
+  padding: 35px;
+  color: white;
+  border-right: solid 1px #ffc106;
 }
 
-#compras{
-    background: #F76531; 
-    padding: 35px;  
-    color: white;
-    border-right: solid 1px #FFC106;
+#compras {
+  background: #f76531;
+  padding: 35px;
+  color: white;
+  border-right: solid 1px #ffc106;
 }
-#music{
-    background: #F76531;
-    padding: 35px;
-    color: white;
-    border-right: solid 1px #FFC106;
+#music {
+  background: #f76531;
+  padding: 35px;
+  color: white;
+  border-right: solid 1px #ffc106;
+}
 
-}
 
     
     
+
+#phone:hover {
+  transition-delay: 0s;
+  transform: none;
+  color: orchid;
+}
+
 
 
 
@@ -331,7 +302,7 @@ body {
 
 #conteudo {
   margin-left: 40px;
-  color: #3a1d5f ;
+  color: #3a1d5f;
 }
 
 #conteudo {
@@ -339,31 +310,20 @@ body {
   margin-right: 40px;
 }
 
-
 #parag {
   margin-bottom: 50px;
   margin-left: 100px;
 }
-    
-    
-#conteudo{
-   
-    margin-left: 40px;
-    color: #3a1d5f ;
 
-
-
-
-
-
+#conteudo {
+  margin-left: 40px;
+  color: #3a1d5f;
 }
 #titulo {
   display: flex;
-  color: #3a1d5f ;
+  color: #3a1d5f;
   padding: 2%;
-
 }
-
 
 #auxiliar {
   margin-top: 180px;
@@ -372,20 +332,15 @@ body {
   margin-left: 200px;
 }
 
-
-
 h2 {
-
-  color: #3a1d5f ;
+  color: #3a1d5f;
   font: 33.60625px intro_blackregular, Arial, Helvetica;
   margin: 15px 0px 0px;
-
 }
-
 
 #botao {
   color: orange;
-  background: #3a1d5f ;
+  background: #3a1d5f;
   font: 16px intro_bookregular, sans-serif;
 }
 
@@ -403,17 +358,15 @@ h2 {
   padding: 3%;
 }
 
-
-h1,h2{
-    color: #3a1d5f ;
-    font: 33.60625px intro_blackregular, Arial, Helvetica;
-    margin: 15px 0px 0px;
-    
+h1,
+h2 {
+  color: #3a1d5f;
+  font: 33.60625px intro_blackregular, Arial, Helvetica;
+  margin: 15px 0px 0px;
 }
 #banner1 {
   margin-left: 10px;
   margin-right: 10px;
-
 }
 #banner1:hover{
   border: solid 1px white;
@@ -424,22 +377,14 @@ h1,h2{
   width: 1349px;
 }
 
-
-
-
-
-
-
-
-
-#botao{
-    color: orange;
-    background:#3a1d5f  ;
-    font: 16px intro_bookregular, sans-serif;
-} 
+#botao {
+  color: orange;
+  background: #3a1d5f;
+  font: 16px intro_bookregular, sans-serif;
+}
 
 #plano {
-    color:#3a1d5f ;
+  color: #3a1d5f;
 }
 .container-fluid {
   width: 90%;
@@ -448,9 +393,7 @@ h1,h2{
 .margen-mk-0 {
   margin-right: 0;
   margin-left: 0;
-
 }
-
 
 .background-equipamento {
   height: 500px;
@@ -476,6 +419,12 @@ h1,h2{
   margin-bottom: 1.4rem;
   font-family: Ubuntu;
 }
+#owl-carousel .item img{
+ margin: 0;
+  width: 339px;
+
+ 
+}
 
 .background-equipamento p {
   color: white;
@@ -483,15 +432,12 @@ h1,h2{
   margin-bottom: 1rem;
 }
 
-
-#banner1{
-    
-    margin-left: 100px;
-    margin-right: 10px;
+#banner1 {
+  margin-left: 100px;
+  margin-right: 10px;
 }
 .padding-padrao {
   padding-left: 0 !important;
-
 }
 
 .title-destaque {
@@ -508,18 +454,15 @@ h1,h2{
 }
 
 #equipamentos {
-  
-
-color: #3a1d5f;
+  color: #3a1d5f;
 }
 
-
-#equipamento h1{
-    color: black;
+#equipamento h1 {
+  color: black;
 }
 
-#telemoveis{
-  background:  #3a1d5f ;
+#telemoveis {
+  background: #3a1d5f;
   color: #f16223;
   text-align: center;
   margin-bottom: 20px;
@@ -528,23 +471,34 @@ color: #3a1d5f;
   height: 40px;
   padding-top: 10px;
   padding-top: 10px;
-  
 }
-#acessorios{
-color: #3a1d5f;
-border-bottom: solid 1px  #3a1d5f;
-text-align: center;
-margin-bottom: 20px;
-margin-top: 20px;
-padding-top: 10px;
-padding-top: 10px;
+#acessorios {
+  color: #3a1d5f;
+  border-bottom: solid 1px #3a1d5f;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-top: 10px;
 }
-#acessorios:hover{
+#acessorios:hover {
   color: white;
   background: rgb(88, 88, 88);
- 
 }
-#telefone{}
+#telefone {
+}
+
+#footer {
+  background-color: #3a1d5f;
+  padding-top: 4%;
+}
+.rodape {
+  color: #d96704;
+}
+.rodape:hover {
+  color: #d95130;
+}
+
 
 #footer{
 background-color: #3a1d5f ; 
@@ -555,11 +509,40 @@ padding-left: 150px;
   padding-top: 30px;
   padding-right:90px;
   margin-right: px;
- 
 }
-.rodape{
-    color: #D96704;
+
+/* Equipamentos ============================ */
+.equipamentos-mk {
+  text-align: center;
 }
-.rodape:hover{
-    color: #D95130
+
+.equipamentos-mk h1 {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+
 }
+
+.equipamentos-mk .nav-item {
+  width: 50%;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #3a1d5f;
+
+  font-family: Ubuntu;
+  font-weight: 100;
+
+  color: #3a1d5f !important;
+}
+
+.equipamentos-mk .nav-item .active {
+  padding: 1rem;
+  border-radius: 0;
+  background: #5c0f8b !important;
+
+  color: #f16223;
+  font-weight: bold;
+}
+
+/* End Equipamentos ==================== */
