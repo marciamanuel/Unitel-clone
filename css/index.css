@@ -485,8 +485,7 @@ h2 {
   color: white;
   background: rgb(88, 88, 88);
 }
-#telefone {
-}
+
 
 #footer {
   background-color: #3a1d5f;
@@ -545,4 +544,20 @@ padding-left: 150px;
   font-weight: bold;
 }
 
+#botao-anterior #botao-proximo{
+
+  position: absolute;
+  top: 500px;
+}
+
+#botao-anterior{
+  left: 100px;
+}
+#botao-proximo{
+  right: 35pxs;
+}
+
+#img2{
+  margin-top: 300px;
+}
 /* End Equipamentos ==================== */
