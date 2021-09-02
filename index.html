@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/index.css" />
 
+    <link rel="stylesheet" href="owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css" />
+
     <!-- Fontawesome -->
     <link
       rel="stylesheet"
@@ -20,6 +23,16 @@
       href="fonts/font-awesome-5/css/fontawesome-all.min.css"
     />
     <!-- Fontawesome -->
+
+    <style>
+      #botao-anterior {
+        background: #000;
+        position: absolute;
+
+        left: 0;
+        top: 412vh;
+      }
+    </style>
   </head>
   <body>
     <!-- Area do Menu -->
@@ -300,6 +313,7 @@
             </g>
           </g>
         </svg>
+
         VOZ
       </div>
       <div class="col-sm-3" id="internet">
@@ -504,7 +518,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6 padding-padrao">
+        <div class="col-lg-5" id="banner1">
           <img src="assets/card-1.jpeg" class="card-img-top" alt="..." />
           <div class="card-body p-0 m-0">
             <h5 class="card-title" id="titulo">PORTAL UNITEL KIDS</h5>
@@ -515,7 +529,7 @@
             <a href="#" class="btn btn-primary" id="botao">SABER MAIS AQUI ></a>
           </div>
         </div>
-        <div class="col-lg-6 padding-padrao">
+        <div class="col-lg-5">
           <img src="assets/card-2.jpeg" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">4G UNITEL</h5>
@@ -587,9 +601,46 @@
                 role="tabpanel"
                 aria-labelledby="home-tab"
               >
-                <!-- Adicionar aqui o slide de telefones -->
-                Aqui vai ficar um slider
-                <!-- Adicionar aqui o slide de telefones -->
+                <div id="owl-carousel" class="owl-carousel owl-theme">
+                  <!-- Adicionar aqui o slide de telefones -->
+                  <div class="item">
+                    <img src="assets/iphone.png" height="430px" id="img1" />
+                  </div>
+                  <div class="item">
+                    <img src="assets/iphone SE.jpg" height="370px" id="img2" />
+                  </div>
+                  <div class="item">
+                    <img src="assets/A10.jpg" height="350px" id="img3" />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="assets/Xiaomi-Redmi-9A.jpg"
+                      height="350px"
+                      id="img4"
+                    />
+                  </div>
+                  <div class="item">
+                    <img src="assets/nokia-C20.png" height="350px" />
+                  </div>
+                  <div class="item">
+                    <img src="assets/ciano.jpg" height="350px" />
+                  </div>
+                  <div class="item">
+                    <img src="assets/1B.jpg" height="350px" />
+                  </div>
+                  <div class="item">
+                    <img src="assets/1.jpg" height="350px" />
+                  </div>
+                  <!-- Adicionar aqui o slide de telefones -->
+                  <di id="navegacao">
+                    <button id="botao-anterior" class="btn btn-outline-dark">
+                      <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button id="botao-proximo" class="btn btn-outline-dark">
+                      <i class="fas fa-chevron-right"></i>
+                    </button>
+                  </di>
+                </div>
               </div>
               <div
                 class="tab-pane fade"
@@ -597,8 +648,18 @@
                 role="tabpanel"
                 aria-labelledby="profile-tab"
               >
-                <!-- Adicionar aqui o slide de acessórios -->
-                Aqui vai ficar um slider
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                  <!-- Adicionar aqui o slide de acessórios -->
+
+                  <div class="item"><img src="assets/Apple.jpg" /></div>
+                  <div class="item"><img src="assets/garmin.jpg" /></div>
+                  <div class="item"><img src="assets/A10.jpg" /></div>
+                  <div class="item"><img src="assets/magsafe.jpg" /></div>
+                  <div class="item"><img src="" /></div>
+                  <div class="item"><img src="" /></div>
+                  <div class="item"><img src="" /></div>
+                  <div class="item"><img src="" /></div>
+                </div>
                 <!-- Adicionar aqui o slide de acessórios -->
               </div>
             </div>
@@ -606,51 +667,51 @@
         </div>
       </div>
     </div>
+
     <!-- Equipamentos ==================================================== -->
 
     <!-- Area do rodape -->
-    <div id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3">
-            <div class="rodape">
-              Particulares <br />
-              Voz <br />
-              SMS <br />
-              Internet <br />
-              Roaming <br />
-              Apoio ao Cliente <br />
-              Mundo Unitel
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="rodape">
-              Empresarial <br />
-              Tarifários <br />
-              Apoio ao Cliente
-            </div>
-          </div>
 
-          <div class="col-lg-3">
-            <div class="rodape">
-              Institucional <br />
-              A Unitel <br />
-              Sustentabilidade <br />
-              Carreiras <br />
-              Notícias <br />
-              Imprensa <br />
-              Contactos
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <img src="assets/logo_unitel.svg" alt="logo unitel" />
-          </div>
+    <div class="row" id="footer">
+      <div class="col-sm-3">
+        <div class="rodape">
+          Particulares <br />
+          Voz <br />
+          SMS <br />
+          Internet <br />
+          Roaming <br />
+          Apoio ao Cliente <br />
+          Mundo Unitel
         </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="rodape">
+          Empresarial <br />
+          Tarifários <br />
+          Apoio ao Cliente
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="rodape">
+          Institucional <br />
+          A Unitel <br />
+          Sustentabilidade <br />
+          Carreiras <br />
+          Notícias <br />
+          Imprensa <br />
+          Contactos
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <img src="assets/logo_unitel.svg" alt="logo unitel" id="logo" />
+        <style></style>
       </div>
     </div>
 
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/index.js"></script>
+    <script src="owl/owl.carousel.min.js"></script>
   </body>
 </html>

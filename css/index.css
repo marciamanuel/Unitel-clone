@@ -276,25 +276,21 @@ body {
   border-right: solid 1px #ffc106;
 }
 
+
+    
+    
+
 #phone:hover {
   transition-delay: 0s;
   transform: none;
   color: orchid;
 }
 
-#compras {
-  background: orange;
-  padding: 40px;
-  color: white;
-}
-#music {
-  background: orange;
-  padding: 40px;
-  color: white;
-}
 
-div #phone:hover {
-  color: yellow;
+
+
+ #phone:hover {
+  color:#3a1d5f ;
 }
 
 #r1 {
@@ -372,6 +368,10 @@ h2 {
   margin-left: 10px;
   margin-right: 10px;
 }
+#banner1:hover{
+  border: solid 1px white;
+  box-shadow: rgb(189, 186, 186);
+}
 
 #img {
   width: 1349px;
@@ -418,6 +418,12 @@ h2 {
   font-weight: bold;
   margin-bottom: 1.4rem;
   font-family: Ubuntu;
+}
+#owl-carousel .item img{
+ margin: 0;
+  width: 339px;
+
+ 
 }
 
 .background-equipamento p {
@@ -479,8 +485,7 @@ h2 {
   color: white;
   background: rgb(88, 88, 88);
 }
-#telefone {
-}
+
 
 #footer {
   background-color: #3a1d5f;
@@ -491,6 +496,18 @@ h2 {
 }
 .rodape:hover {
   color: #d95130;
+}
+
+
+#footer{
+background-color: #3a1d5f ; 
+padding-top: 50px;
+padding-left: 150px;
+
+} #logo{
+  padding-top: 30px;
+  padding-right:90px;
+  margin-right: px;
 }
 
 /* Equipamentos ============================ */
@@ -504,6 +521,7 @@ h2 {
   font-size: 4rem;
   margin-bottom: 3rem;
   margin-top: 2rem;
+
 }
 
 .equipamentos-mk .nav-item {
@@ -526,4 +544,20 @@ h2 {
   font-weight: bold;
 }
 
+#botao-anterior #botao-proximo{
+
+  position: absolute;
+  top: 500px;
+}
+
+#botao-anterior{
+  left: 100px;
+}
+#botao-proximo{
+  right: 35pxs;
+}
+
+#img2{
+  margin-top: 300px;
+}
 /* End Equipamentos ==================== */
