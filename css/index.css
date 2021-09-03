@@ -613,6 +613,12 @@ h2 {
   padding: 0 0.8rem;
 }
 
+/* ======================= CARROUSEL ====================== */
+.item img {
+  width: 320px !important;
+  height: 320px !important;
+}
+
 /* ===================== Footer ============================ */
 .footer {
   background-color: #3a1d5f;
@@ -628,4 +634,50 @@ h2 {
 
 .footer .rodape a + a {
   margin-top: 0.6rem;
+}
+
+.footer .redes-sociais {
+  margin-top: 2rem;
+}
+
+.footer .redes-sociais a {
+  color: #f16223;
+  font-size: 1.2rem;
+}
+
+.footer .redes-sociais a + a {
+  margin-left: 1rem;
+}
+
+/* OWL  */
+.owl-nav {
+  top: -1rem;
+  right: 0;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  right: 0;
+  top: 7rem;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  left: 0;
+  top: 7rem;
+}
+
+.owl-nav .owl-next span,
+.owl-nav .owl-prev span {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+
+.owl-dots {
+  display: none;
 }

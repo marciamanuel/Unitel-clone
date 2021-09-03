@@ -116,6 +116,7 @@
         </div>
       </div>
     </div>
+    <!-- Area do Menu -->
 
     <!-- Area do Slide -->
     <div>
@@ -221,6 +222,7 @@
         </button>
       </div>
     </div>
+    <!-- Area do Slide -->
 
     <!-- navegacao extra - icones -->
     <div class="row margen-mk-0 mb-5" dir="icones">
@@ -547,65 +549,41 @@
                 aria-labelledby="home-tab"
               >
                 <div id="owl-carousel" class="owl-carousel owl-theme">
-                  <!-- Adicionar aqui o slide de telefones -->
                   <div class="item">
-                    <img src="assets/iphone.png" height="430px" id="img1" />
+                    <img src="assets/iphone.png" />
                   </div>
                   <div class="item">
-                    <img src="assets/iphone SE.jpg" height="370px" id="img2" />
+                    <img src="assets/iphone SE.jpg" />
                   </div>
                   <div class="item">
-                    <img src="assets/A10.jpg" height="350px" id="img3" />
+                    <img src="assets/A10.jpg" />
                   </div>
                   <div class="item">
-                    <img
-                      src="assets/Xiaomi-Redmi-9A.jpg"
-                      height="350px"
-                      id="img4"
-                    />
+                    <img src="assets/Xiaomi-Redmi-9A.jpg" />
                   </div>
-                  <div class="item">
-                    <img src="assets/nokia-C20.png" height="350px" />
-                  </div>
-                  <div class="item">
-                    <img src="assets/ciano.jpg" height="350px" />
-                  </div>
-                  <div class="item">
-                    <img src="assets/1B.jpg" height="350px" />
-                  </div>
-                  <div class="item">
-                    <img src="assets/1.jpg" height="350px" />
-                  </div>
-                  <!-- Adicionar aqui o slide de telefones -->
-                  <di id="navegacao">
-                    <button id="botao-anterior" class="btn btn-outline-dark">
-                      <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button id="botao-proximo" class="btn btn-outline-dark">
-                      <i class="fas fa-chevron-right"></i>
-                    </button>
-                  </di>
                 </div>
               </div>
+
               <div
                 class="tab-pane fade"
                 id="profile"
                 role="tabpanel"
                 aria-labelledby="profile-tab"
               >
-                <div id="owl-demo" class="owl-carousel owl-theme">
-                  <!-- Adicionar aqui o slide de acessórios -->
-
-                  <div class="item"><img src="assets/Apple.jpg" /></div>
-                  <div class="item"><img src="assets/garmin.jpg" /></div>
-                  <div class="item"><img src="assets/A10.jpg" /></div>
-                  <div class="item"><img src="assets/magsafe.jpg" /></div>
-                  <div class="item"><img src="" /></div>
-                  <div class="item"><img src="" /></div>
-                  <div class="item"><img src="" /></div>
-                  <div class="item"><img src="" /></div>
+                <div id="owl-carousel" class="owl-carousel owl-theme">
+                  <div class="item">
+                    <img src="assets/iphone.png" />
+                  </div>
+                  <div class="item">
+                    <img src="assets/iphone SE.jpg" />
+                  </div>
+                  <div class="item">
+                    <img src="assets/A10.jpg" />
+                  </div>
+                  <div class="item">
+                    <img src="assets/Xiaomi-Redmi-9A.jpg" />
+                  </div>
                 </div>
-                <!-- Adicionar aqui o slide de acessórios -->
               </div>
             </div>
           </div>
@@ -650,8 +628,18 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <img src="assets/logo_unitel.svg" alt="logo unitel" id="logo" />
-            <style></style>
+            <img
+              src="assets/logo_unitel-white.svg"
+              alt="logo unitel"
+              id="logo"
+            />
+            <div class="redes-sociais">
+              <a href="#"> <i class="fab fa-instagram"></i></a>
+              <a href="#"> <i class="fab fa-facebook-f"></i></a>
+              <a href="#"> <i class="fab fa-twitter"></i></a>
+              <a href="#"> <i class="fab fa-youtube"></i></a>
+              <a href="#"> <i class="fab fa-linkedin-square"></i></a>
+            </div>
           </div>
         </div>
       </div>
@@ -662,5 +650,25 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/index.js"></script>
     <script src="owl/owl.carousel.min.js"></script>
+
+    <script>
+      $(".owl-carousel").owlCarousel({
+        rtl: true,
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
