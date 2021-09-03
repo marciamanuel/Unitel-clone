@@ -608,7 +608,12 @@ h2 {
   display: inline-block;
 }
 
-/* ===================== Rodape */
+/* ====================== Em Destaque ====================== */
+.emdestaque {
+  padding: 0 0.8rem;
+}
+
+/* ===================== Footer ============================ */
 .footer {
   background-color: #3a1d5f;
 
