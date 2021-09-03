@@ -607,3 +607,20 @@ h2 {
   margin: 0 auto;
   display: inline-block;
 }
+
+/* ===================== Rodape */
+.footer {
+  background-color: #3a1d5f;
+
+  padding: 2rem 0;
+}
+
+.footer .rodape a {
+  display: block;
+  color: #f16223;
+  text-decoration: none;
+}
+
+.footer .rodape a + a {
+  margin-top: 0.6rem;
+}
