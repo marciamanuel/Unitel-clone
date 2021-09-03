@@ -30,10 +30,10 @@
   list-style: none;
   list-style-type: none;
 }
-.submenu1{
+.submenu1 {
   display: none;
 }
-#voz ul li:hover .submenu1{
+#voz ul li:hover .submenu1 {
   display: block;
   position: absolute;
   background: #f0eaea;
@@ -380,11 +380,10 @@ h2 {
   border: solid 1px white;
   box-shadow: rgb(189, 186, 186);
 }
-#banner2:hover{
+#banner2:hover {
   border: solid 1px white;
   box-shadow: rgb(189, 186, 186);
 }
-
 
 #img {
   width: 1349px;
@@ -504,55 +503,55 @@ h2 {
 .rodape {
   color: #d96704;
 }
-#p0:hover{
+#p0:hover {
   color: #d95130;
 }
-#p1:hover{
+#p1:hover {
   color: #d95130;
 }
-#p2 :hover{
+#p2 :hover {
   color: #d95130;
 }
-#p3 :hover{
+#p3 :hover {
   color: #d95130;
 }
-#p4 :hover{
+#p4 :hover {
   color: #d95130;
 }
-#p5 :hover{
+#p5 :hover {
   color: #d95130;
 }
-#p6 :hover{
+#p6 :hover {
   color: #d95130;
 }
-#p7 :hover{
+#p7 :hover {
   color: #d95130;
 }
-#p8 :hover{
+#p8 :hover {
   color: #d95130;
 }
-#p9 :hover{
+#p9 :hover {
   color: #d95130;
 }
-#p10 :hover{
+#p10 :hover {
   color: #d95130;
 }
-#p11 :hover{
+#p11 :hover {
   color: #d95130;
 }
-#p12 :hover{
+#p12 :hover {
   color: #d95130;
 }
-#p13 :hover{
+#p13 :hover {
   color: #d95130;
 }
-#p14 :hover{
+#p14 :hover {
   color: #d95130;
 }
-#p15 :hover{
+#p15 :hover {
   color: #d95130;
 }
-#p16:hover{
+#p16:hover {
   color: #d95130;
 }
 
@@ -566,7 +565,6 @@ h2 {
   padding-right: 90px;
   margin-right: px;
 }
-
 
 .equipamentos-mk {
   text-align: center;
@@ -616,30 +614,31 @@ h2 {
   margin-top: 300px;
 }
 
-#home-tab :hover{
-background:#5c0f8b ;
+#home-tab :hover {
+  background: #5c0f8b;
 }
-#profile-tab{
-  color:#5c0f8b;
+#profile-tab {
+  color: #5c0f8b;
 }
 
-#profile-tab:hover{
+#profile-tab:hover {
   background: rgb(94, 87, 87);
-  color: #ffffff;}
+  color: #ffffff;
+}
 
 /* End Equipamentos ==================== */
 
 /* ============================== Menu =============================== */
 
 .menuFeito {
-  width: 100%;
+  width: 100% !important;
   height: 70px;
   background-color: #f7f7f7;
-  font-family: "Arial";
+  font-family: Ubuntu;
 }
 
 .menuFeito ul {
-  list-style: none;
+  list-style: none !important;
   position: relative;
 }
 
@@ -680,6 +679,7 @@ background:#5c0f8b ;
 
 .menuFeito ul ul {
   margin: 0 auto;
+  z-index: 1;
   text-align: center;
 }
 
@@ -760,5 +760,4 @@ background:#5c0f8b ;
 
 .owl-dots {
   display: none;
-
 }
