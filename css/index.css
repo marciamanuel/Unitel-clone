@@ -291,21 +291,14 @@ body {
   border-right: solid 1px #ffc106;
 }
 
-
-    
-    
-
 #phone:hover {
   transition-delay: 0s;
   transform: none;
-  color: orchid;
+  color: #fff;
 }
 
-
-
-
- #phone:hover {
-  color:#3a1d5f ;
+#phone:hover {
+  color: #3a1d5f;
 }
 
 #r1 {
@@ -383,7 +376,7 @@ h2 {
   margin-left: 10px;
   margin-right: 10px;
 }
-#banner1:hover{
+#banner1:hover {
   border: solid 1px white;
   box-shadow: rgb(189, 186, 186);
 }
@@ -439,11 +432,9 @@ h2 {
   margin-bottom: 1.4rem;
   font-family: Ubuntu;
 }
-#owl-carousel .item img{
- margin: 0;
+#owl-carousel .item img {
+  margin: 0;
   width: 339px;
-
- 
 }
 
 .background-equipamento p {
@@ -506,7 +497,6 @@ h2 {
   background: rgb(88, 88, 88);
 }
 
-
 #footer {
   background-color: #3a1d5f;
   padding-top: 4%;
@@ -566,15 +556,14 @@ h2 {
   color: #d95130;
 }
 
-
-#footer{
-background-color: #3a1d5f ; 
-padding-top: 50px;
-padding-left: 150px;
-
-} #logo{
+#footer {
+  background-color: #3a1d5f;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+#logo {
   padding-top: 30px;
-  padding-right:90px;
+  padding-right: 90px;
   margin-right: px;
 }
 
@@ -589,7 +578,6 @@ padding-left: 150px;
   font-size: 4rem;
   margin-bottom: 3rem;
   margin-top: 2rem;
-
 }
 
 .equipamentos-mk .nav-item {
@@ -612,22 +600,22 @@ padding-left: 150px;
   font-weight: bold;
 }
 
-#botao-anterior #botao-proximo{
-
+#botao-anterior #botao-proximo {
   position: absolute;
   top: 500px;
 }
 
-#botao-anterior{
+#botao-anterior {
   left: 100px;
 }
-#botao-proximo{
+#botao-proximo {
   right: 35pxs;
 }
 
-#img2{
+#img2 {
   margin-top: 300px;
 }
+
 #home-tab :hover{
 background:#5c0f8b ;
 }
@@ -637,5 +625,140 @@ background:#5c0f8b ;
 
 #profile-tab:hover{
   background: rgb(94, 87, 87);
-  color: #ffffff;
+  color: #ffffff;}
+
+/* End Equipamentos ==================== */
+
+/* ============================== Menu =============================== */
+
+.menuFeito {
+  width: 100%;
+  height: 70px;
+  background-color: #f7f7f7;
+  font-family: "Arial";
+}
+
+.menuFeito ul {
+  list-style: none;
+  position: relative;
+}
+
+.menuFeito > ul > li {
+  float: left;
+}
+
+.menuFeito a {
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+
+  text-align: center;
+  font-weight: bold;
+  color: #641b91;
+}
+
+.menuFeito ul ul {
+  position: absolute;
+  visibility: hidden;
+  background: #f7f7f7;
+}
+
+.menuFeito ul li:hover ul {
+  visibility: visible;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  position: absolute;
+
+  transition: all 2s;
+}
+
+.menuFeito a:hover {
+  border-bottom: 3px solid #641b91;
+  color: #641b91;
+}
+
+.menuFeito ul ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menuFeito ul ul li {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+/* ====================== Em Destaque ====================== */
+.emdestaque {
+  padding: 0 0.8rem;
+}
+
+/* ======================= CARROUSEL ====================== */
+.item img {
+  width: 320px !important;
+  height: 320px !important;
+}
+
+/* ===================== Footer ============================ */
+.footer {
+  background-color: #3a1d5f;
+
+  padding: 2rem 0;
+}
+
+.footer .rodape a {
+  display: block;
+  color: #f16223;
+  text-decoration: none;
+}
+
+.footer .rodape a + a {
+  margin-top: 0.6rem;
+}
+
+.footer .redes-sociais {
+  margin-top: 2rem;
+}
+
+.footer .redes-sociais a {
+  color: #f16223;
+  font-size: 1.2rem;
+}
+
+.footer .redes-sociais a + a {
+  margin-left: 1rem;
+}
+
+/* OWL  */
+.owl-nav {
+  top: -1rem;
+  right: 0;
+}
+
+.owl-nav .owl-prev {
+  position: absolute;
+  right: 0;
+  top: 7rem;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  left: 0;
+  top: 7rem;
+}
+
+.owl-nav .owl-next span,
+.owl-nav .owl-prev span {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+  background-color: transparent !important;
+  color: #000 !important;
+}
+
+.owl-dots {
+  display: none;
+
 }
