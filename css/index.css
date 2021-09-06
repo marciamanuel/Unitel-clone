@@ -761,3 +761,29 @@ h2 {
 .owl-dots {
   display: none;
 }
+
+/* ============================= Pesquisa */
+.btn-pesquisa {
+  background: transparent !important;
+  border: 0;
+}
+.pesquisa {
+  display: none;
+}
+.pesquisa.active {
+  background: #f7f7f7;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+.pesquisa input {
+  margin: 0 auto;
+  width: 66%;
+  padding: 0.6rem 1rem;
+  z-index: 1;
+}
