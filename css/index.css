@@ -291,10 +291,15 @@ body {
   border-right: solid 1px #ffc106;
 }
 
-#phone:hover {
-  transition-delay: 0s;
-  transform: none;
-  color: #fff;
+#music:hover {
+  color: #3a1d5f;
+}
+
+#internet:hover {
+  color: #3a1d5f;
+}
+#compras:hover {
+  color: #3a1d5f;
 }
 
 #phone:hover {
@@ -786,4 +791,39 @@ h2 {
   width: 66%;
   padding: 0.6rem 1rem;
   z-index: 1;
+}
+.tel-nome{
+  font-size: 35px;
+  color: #f16223;
+}
+
+.tel-preco{
+  color: #5c0f8b;
+  font-size: 35px;
+}
+#subrodape{
+  border-top:#5c0f8b 1px solid;
+  margin-top: 100px;
+}
+#subrodape li{
+  list-style: none;
+}
+#subrodape a{
+  text-decoration: none;
+  color: #d95130;
+ display: flex;
+
+}
+.redes-sociais a:hover{
+  color: #f0eaea;
+}
+
+#termo{
+  margin-top: 40px;
+  display: block;
+}
+#subrodape p{
+  color: #d95130;
+  margin-left: 100px;
+  margin-top: 40px;
 }
